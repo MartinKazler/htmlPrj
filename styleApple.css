@@ -1,0 +1,207 @@
+                             html {
+                                 margin: 0%;
+                                 padding: 0%;
+                             }
+                             
+                             @media screen and (max-width: 992px) {
+                                 .column {
+                                     width: 50%;
+                                     padding: 20px;
+                                 }
+                             }
+                             
+                             @media screen and (max-width: 600px) {
+                                 .column {
+                                     width: 100%;
+                                 }
+                             }
+                             
+                             body {
+                                 font: 100% georgia, sans-serif;
+                                 line-height: 1.98889;
+                                 color: #000000;
+                                 background: #faf8f8 no-repeat bottom right;
+                                 margin: 0;
+                                 padding: 0;
+                                 display: block;
+                             }
+                             
+                             p {
+                                 text-align: justify;
+                             }
+                             
+                             a:link {
+                                 font-weight: bold;
+                                 text-decoration: none;
+                                 color: #0066cc;
+                             }
+                             
+                             a:visited {
+                                 font-weight: bold;
+                                 text-decoration: none;
+                                 color: #110303;
+                             }
+                             
+                             a:active {
+                                 text-decoration: underline;
+                                 color: #ba9885;
+                             }
+                             
+                             abbr {
+                                 border-bottom: none;
+                                 text-decoration: none;
+                             }
+                             
+                             header h1 {
+                                 background: transparent url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Apple_Logo.svg/136px-Apple_Logo.svg.png) no-repeat top left;
+                                 margin: 20px 20px 0px 40px;
+                                 position: relative;
+                                 display: block;
+                                 width: 250px;
+                                 height: 220px;
+                                 float: left;
+                                 text-indent: 100%;
+                                 overflow: hidden;
+                             }
+                             
+                             header {
+                                 padding-top: 10px;
+                                 height: 150px;
+                             }
+                             
+                             .summary {
+                                 clear: both;
+                                 margin: 20px 0px 0px 20px;
+                                 width: 160px;
+                                 float: left;
+                                 border: 4px solid rgb(0, 0, 0);
+                             }
+                             
+                             .summary p {
+                                 font: italic 1.1em/2.2 georgia;
+                                 text-align: center;
+                             }
+                             
+                             footer {
+                                 text-align: center;
+                                 position: bottom;
+                             }
+                             
+                             footer a:link,
+                             footer a:visited {
+                                 margin-right: 20px;
+                             }
+                             
+                             a {
+                                 text-decoration: none;
+                             }
+                             
+                             div,
+                             h2,
+                             p,
+                             figure {
+                                 margin: 0;
+                                 padding: 0;
+                             }
+                             
+                             .main {
+                                 margin: 10 auto;
+                                 max-width: 1350px;
+                                 padding: 70px;
+                             }
+                             
+                             .columns {
+                                 display: flex;
+                             }
+                             
+                             .column {
+                                 display: flex;
+                                 flex: 1;
+                                 flex-direction: column;
+                             }
+                             
+                             .main-column {
+                                 flex: 3;
+                             }
+                             
+                             .nested-column {
+                                 flex: 2;
+                             }
+                             
+                             .article {
+                                 background: white;
+                                 color: #666;
+                                 display: flex;
+                                 flex: 1;
+                                 flex-direction: column;
+                                 flex-basis: auto;
+                                 margin: 10px;
+                             }
+                             
+                             .article-image {
+                                 background: #eee;
+                                 display: block;
+                                 padding-top: 75%;
+                                 position: relative;
+                                 width: 100%;
+                             }
+                             
+                             .article-image img {
+                                 display: block;
+                                 height: 100%;
+                                 left: 0;
+                                 position: absolute;
+                                 top: 0;
+                                 width: 100%;
+                             }
+                             
+                             .article-image.is-3by2 {
+                                 padding-top: 66.6666%;
+                             }
+                             
+                             .article-image.is-16by9 {
+                                 padding-top: 56.25%;
+                             }
+                             
+                             .article-body {
+                                 display: flex;
+                                 flex: 1;
+                                 flex-direction: column;
+                                 padding: 20px;
+                             }
+                             
+                             .article-title {
+                                 color: #333;
+                                 flex-shrink: 0;
+                                 font-size: 1.4em;
+                                 font-weight: bold;
+                                 font-weight: 700;
+                                 line-height: 1.2;
+                             }
+                             
+                             .article-content {
+                                 flex: 1;
+                                 margin-top: 5px;
+                             }
+                             
+                             .article-info {
+                                 display: flex;
+                                 font-size: 0.85em;
+                                 justify-content: space-between;
+                                 margin-top: 10px;
+                             }
+                             
+                             .first-article {
+                                 flex-direction: row;
+                             }
+                             
+                             .first-article .article-body {
+                                 flex: 1;
+                             }
+                             
+                             .first-article .article-image {
+                                 height: 300px;
+                                 order: 2;
+                                 padding-top: 0;
+                                 width: 400px;
+                             }
